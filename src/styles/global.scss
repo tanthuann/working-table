@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+}
+
+#root {
+  overflow: hidden;
+  background: #ffffff;
+  height: 100vh;
+  margin: 0;
+
+  .app {
+    position: relative;
+    height: 100%;
+    background: #20232a;
+  }
+}
