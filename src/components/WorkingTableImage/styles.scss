@@ -11,12 +11,11 @@
 
     #table-shadow,
     #light-of-lamp {
-      fill: $primary-background;
+      fill: $shadow-color;
     }
 
     #night-time {
-      opacity: 0;
-      visibility: hidden;
+      display: none;
     }
   }
 }
