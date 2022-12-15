@@ -17,5 +17,33 @@
     #night-time {
       display: none;
     }
+
+    #eye_eye-right,
+    #eye_eye-left {
+      animation: blink 4s infinite;
+    }
+  }
+}
+
+// Double Blink
+@keyframes blink {
+  0%,
+  8% {
+    opacity: 1;
+  }
+  10%,
+  12% {
+    opacity: 0.1;
+  }
+  13% {
+    opacity: 1;
+  }
+  14%,
+  16% {
+    opacity: 0;
+  }
+  18%,
+  100% {
+    opacity: 1;
   }
 }
