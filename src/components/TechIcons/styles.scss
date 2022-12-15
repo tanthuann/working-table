@@ -1,0 +1,92 @@
+.tech-icons-wrapper {
+  .icon {
+    position: absolute;
+    height: 40px;
+    top: 25%;
+    left: 44%;
+    transform: scale(0);
+  }
+
+  .js,
+  .css3,
+  .html5 {
+    height: 45px;
+    width: 45px;
+  }
+
+  .css3,
+  .html5 {
+    height: 42px;
+  }
+
+  .html5 {
+    animation: html-animation 1s forwards;
+  }
+  .css3 {
+    animation: css3-animation 1s forwards;
+    animation-delay: 100ms;
+  }
+  .js {
+    animation: js-animation 1s forwards;
+    animation-delay: 200ms;
+  }
+  .react {
+    fill: #61dafb;
+    height: 38px;
+    background-color: #222222;
+    animation: react-animation 1s forwards;
+    animation-delay: 300ms;
+  }
+}
+
+@keyframes html-animation {
+  70% {
+    top: 18%;
+    left: 20%;
+    transform: scale(1.4);
+  }
+  100% {
+    top: 22%;
+    left: 24%;
+    transform: scale(1.2);
+  }
+}
+
+@keyframes css3-animation {
+  70% {
+    top: 5%;
+    left: 30%;
+    transform: scale(1.4);
+  }
+  100% {
+    top: 10.5%;
+    left: 34%;
+    transform: scale(1.2);
+  }
+}
+
+@keyframes js-animation {
+  70% {
+    top: 5%;
+    left: 54%;
+    transform: scale(1.4);
+  }
+  100% {
+    top: 10%;
+    left: 50%;
+    transform: scale(1.2);
+  }
+}
+
+@keyframes react-animation {
+  70% {
+    top: 18%;
+    left: 68%;
+    transform: scale(1.4);
+  }
+  100% {
+    top: 22%;
+    left: 64%;
+    transform: scale(1.2);
+  }
+}

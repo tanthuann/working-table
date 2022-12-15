@@ -1,0 +1,12 @@
+:root {
+  --primary-background: #a3caf1;
+  --shadow-color: transparent;
+}
+
+html[data-theme="dark"] {
+  --primary-background: #000;
+  --shadow-color: #ead48c;
+}
+
+$primary-background: var(--primary-background);
+$shadow-color: var(--shadow-color);

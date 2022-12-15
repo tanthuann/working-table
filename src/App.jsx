@@ -1,9 +1,9 @@
-// others
-import Logo from "./components/Logo";
+// components
+import WorkingTableImage from "./components/WorkingTableImage";
 
 const App = () => (
   <div className="app">
-    <Logo />
+    <WorkingTableImage />
   </div>
 );
 
