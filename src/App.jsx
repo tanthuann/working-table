@@ -1,4 +1,4 @@
-// others
+// components
 import WorkingTableImage from "./components/WorkingTableImage";
 
 const App = () => (
