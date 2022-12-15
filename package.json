@@ -1,5 +1,6 @@
 {
   "name": "working-table",
+  "homepage": "https://tanthuann.github.io/working-table",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -20,7 +21,9 @@
     "eject": "react-scripts eject",
     "prepare": "husky install",
     "lint-staged:js": "eslint --cache --fix --ext .js,.jsx",
-    "lint-staged:prettier": "prettier -c --write"
+    "lint-staged:prettier": "prettier -c --write",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -49,6 +52,7 @@
     "eslint-plugin-jsx-a11y": "^6.6.1",
     "eslint-plugin-react": "^7.31.11",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "gh-pages": "^4.0.0",
     "husky": "^8.0.2",
     "lint-staged": "^13.1.0",
     "prettier": "^2.8.1"
