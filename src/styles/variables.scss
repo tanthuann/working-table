@@ -1,0 +1,9 @@
+:root {
+  $primary-background: #a3caf1;
+  $shadow-color: transparent;
+}
+
+:html[data-theme="dark"] {
+  $primary-background: #a3caf1;
+  $shadow-color: #ead48c;
+}
