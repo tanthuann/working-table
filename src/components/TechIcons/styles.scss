@@ -1,0 +1,20 @@
+.tech-icons-wrapper {
+  .icon {
+    position: absolute;
+    height: 40px;
+    top: 25%;
+    left: 44%;
+  }
+
+  .js,
+  .css3,
+  .html5 {
+    height: 45px;
+    width: 45px;
+  }
+
+  .react {
+    fill: #61dafb;
+    background-color: #222222;
+  }
+}
